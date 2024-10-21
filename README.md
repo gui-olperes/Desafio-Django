@@ -21,7 +21,7 @@ Siga as etapas abaixo para configurar e rodar o projeto localmente.
 git clone <URL_DO_REPOSITORIO>
 cd controle_tarefas
 
-2. Crie e Ative um Ambiente Virtual
+### 2. Crie e Ative um Ambiente Virtual
 
 Recomenda-se o uso de um ambiente virtual para gerenciar as dependências do projeto.
 
@@ -31,7 +31,7 @@ python -m venv venv
 source venv/bin/activate  # Para Linux ou macOS
 venv\Scripts\activate  # Para Windows
 
-3. Instale as Dependências
+### 3. Instale as Dependências
 
 Instale as dependências necessárias usando o pip:
 
@@ -39,7 +39,7 @@ Instale as dependências necessárias usando o pip:
 
 pip install -r requirements.txt
 
-4. Configure o Banco de Dados
+### 4. Configure o Banco de Dados
 
 Execute as migrações para configurar o banco de dados:
 
@@ -47,7 +47,7 @@ Execute as migrações para configurar o banco de dados:
 
 python manage.py migrate
 
-5. Crie um Superusuário (Opcional)
+### 5. Crie um Superusuário (Opcional)
 
 Se você deseja acessar a interface de administração do Django, crie um superusuário:
 
@@ -55,7 +55,7 @@ Se você deseja acessar a interface de administração do Django, crie um superu
 
 python manage.py createsuperuser
 
-6. Inicie o Servidor de Desenvolvimento
+### 6. Inicie o Servidor de Desenvolvimento
 
 Agora, você pode iniciar o servidor de desenvolvimento do Django:
 
@@ -63,7 +63,7 @@ Agora, você pode iniciar o servidor de desenvolvimento do Django:
 
 python manage.py runserver
 
-7. Acesse a Aplicação
+### 7. Acesse a Aplicação
 
 Abra seu navegador e acesse a aplicação em:
 
