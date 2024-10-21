@@ -67,9 +67,7 @@ python manage.py runserver
 
 Abra seu navegador e acesse a aplicação em:
 
-arduino
-
-http://127.0.0.1:8000/tarefas
+http://localhost:8000/tarefas/
 
 Funcionalidades
 
